@@ -1,0 +1,24 @@
+{
+"name": "Easy UC",
+"version": "1.0",
+"description": "给Web UC加点料",
+"permissions": ["tabs","notifications"],
+"browser_action": {
+		  "default_icon"	: "icon.png",
+		  "default_title"	: "Easy UC",
+		  "default_popup"	: "popup.html"
+},
+"content_scripts": [
+		   {
+		   "matches": ["http://im.sina.com.cn/web_chat/*"],
+		   "css": ["v-euc.css"],
+		   "js": ["jquery-1.7.2.min.js", "v-euc.js"]
+		   }
+],
+"icons": {
+		"16": "icon_16.png",
+		"48": "icon_48.png",
+		"128": "icon_128.png"
+},
+"manifest_version": 2
+}

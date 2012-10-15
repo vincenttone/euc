@@ -1,0 +1,24 @@
+.chatTab li.v-nonce{
+    background: white;
+    border-right: 0px;
+    padding-top: 10px;
+    width: 135px;
+    height: 45px;
+    text-indent: 10px;
+    color: #1982d1;
+}
+.chatTab li.v-nonce div span{
+    font-weight: bold;
+    width: 73px;
+}
+.chatTab li.v-nonce img{
+    float: left;
+    margin-left: 8px;
+    display: block;
+    width: 32px;
+    height: 32px;
+}
+.chatTab li.v-new-call{
+    background: url(http://simg.sinajs.cn/webchat/common/css/bgimages/new_call.gif);
+    font-weight: bold;
+}
